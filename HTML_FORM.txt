@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=`, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="#" target="_blank" method="post">
+
+    <label for="first">ENTER YOUR NAME : </label>
+<input type="text" id="first" value="ASAD KHOSA">
+<br>
+
+<label for="second">AGE :</label>
+<input type="number" id="second" value="19" name="age">
+<br>
+
+
+<label for="third" >SELECT FILE : </label>
+<input type="file" id="third" name="file" >
+<br>
+
+
+<label for="fourth">SEARCH HERE : </label>
+<input type="search" id="fourth" name="search">
+<br>
+
+
+
+<label for="five"> DATE-TIME : </label>
+<input type="datetime-local" id="five" name="DATE">
+<br>
+
+
+
+<label for="six">PLEASE MAKE A CHECK : : </label>
+<input type="checkbox" id="six" name="checkbox">
+<br>
+
+
+
+
+<label for="seven">BUTTON HERE : </label>
+<input type="button" id="seven" name="button">
+<br>
+
+
+
+<label for="eight">EMAIL HERE : </label>
+<input type="email" id="eight" name="email">
+<br>
+
+
+
+
+<label for="nine">IMAGE HERE : </label>
+<input type="image" id="nine" name="IMAGE">
+<br>
+
+
+
+
+<label for="ten">PASSWORD HERE : </label>
+<input type="password" id="ten" name="password" maxlength="4" required> 
+<br>
+
+
+<label for="second-last">RESET BUTTON HERE : </label>
+<input type="reset" id="second-last" name="reset">
+<br>
+
+<label for="last">SUBMIT HERE : </label>
+<input type="submit" id="last" name="submit">
+<br>
+
+<br><br>
+
+<label for="gender">Gender:</label>
+<input type="radio" id="male" name="gender" value="male" required>
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br>
+
+
+  </form>
+</body>
+</html>
